@@ -1,3 +1,7 @@
+I just started building this a couple of days ago and I wasnt going to ever push this since it will be a simple app....probably but I wanted to be able to download it onto my laptop and this was the easiest way i could think of to manage this. I will also write a proper README later lol if anyone ever sees this.
+
+P.S bootstrap is over its BULMA time lol.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
