@@ -14,7 +14,7 @@ export default class Contacts extends Component {
   };
 
   render() {
-    const { name, phone, id, address } = this.props.data;
+    const { name, phone, id, address, desc } = this.props.data;
     return (
       <Consumer>
         {value => {
@@ -37,10 +37,7 @@ export default class Contacts extends Component {
               {this.state.isOpen ? (
                 <React.Fragment>
                   <div className="card-content">
-                    <div className="content">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Error, laudantium?
-                    </div>
+                    <div className="content">{desc}</div>
                   </div>
                   <footer className="card-footer">
                     <a className="card-footer-item has-text-grey-dark">
